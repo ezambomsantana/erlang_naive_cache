@@ -1,0 +1,12 @@
+{application, naive_cache,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { naive_cache_app, []}},
+  {env, []}
+ ]}.

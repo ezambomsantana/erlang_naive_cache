@@ -1,0 +1,198 @@
+2017-12-28 12:01:33 =CRASH REPORT====
+  crasher:
+    initial call: naive_cache_app:init/1
+    pid: <0.101.0>
+    registered_name: naive_cache_app
+    exception exit: {{bad_return_value,undefined},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,730}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.69.0>]
+    message_queue_len: 1
+    messages: [{'$gen_cast',{execute,{lists,reverse,[[1,2,3,4,5]]},5000}}]
+    links: [<0.69.0>]
+    dictionary: [{{lists,reverse,[[1,2,3,4,5]]},{waiting,5000,1514469693767}}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 312
+  neighbours:
+    neighbour: [{pid,<0.69.0>},{registered_name,[]},{initial_call,{erlang,apply,2}},{current_function,{gen,do_call,4}},{ancestors,[]},{message_queue_len,0},{links,[<0.60.0>,<0.101.0>]},{trap_exit,false},{status,waiting},{heap_size,610},{stack_size,35},{reductions,3458},{current_stacktrace,[{gen,do_call,4,[{file,"gen.erl"},{line,169}]},{gen_server,call,2,[{file,"gen_server.erl"},{line,202}]},{erl_eval,do_apply,6,[{file,"erl_eval.erl"},{line,674}]},{shell,exprs,7,[{file,"shell.erl"},{line,687}]},{shell,eval_exprs,7,[{file,"shell.erl"},{line,642}]},{shell,eval_loop,3,[{file,"shell.erl"},{line,627}]}]}]
+2017-12-28 12:06:44 =CRASH REPORT====
+  crasher:
+    initial call: naive_cache_app:init/1
+    pid: <0.101.0>
+    registered_name: naive_cache_app
+    exception exit: {{bad_return_value,undefined},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,730}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.69.0>]
+    message_queue_len: 1
+    messages: [{'$gen_cast',{execute,{lists,reverse,[[1,2,3]]},5000}}]
+    links: [<0.69.0>]
+    dictionary: [{{lists,reverse,[[1,2,3]]},{waiting,5000,1514470004203}}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 310
+  neighbours:
+    neighbour: [{pid,<0.69.0>},{registered_name,[]},{initial_call,{erlang,apply,2}},{current_function,{gen,do_call,4}},{ancestors,[]},{message_queue_len,0},{links,[<0.60.0>,<0.101.0>]},{trap_exit,false},{status,waiting},{heap_size,376},{stack_size,35},{reductions,3137},{current_stacktrace,[{gen,do_call,4,[{file,"gen.erl"},{line,169}]},{gen_server,call,2,[{file,"gen_server.erl"},{line,202}]},{erl_eval,do_apply,6,[{file,"erl_eval.erl"},{line,674}]},{shell,exprs,7,[{file,"shell.erl"},{line,687}]},{shell,eval_exprs,7,[{file,"shell.erl"},{line,642}]},{shell,eval_loop,3,[{file,"shell.erl"},{line,627}]}]}]
+2017-12-28 12:10:36 =CRASH REPORT====
+  crasher:
+    initial call: naive_cache_app:init/1
+    pid: <0.101.0>
+    registered_name: naive_cache_app
+    exception exit: {{bad_return_value,undefined},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,730}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.69.0>]
+    message_queue_len: 1
+    messages: [{'$gen_cast',{execute,{lists,reverse,[[1,2,3]]},5000}}]
+    links: [<0.69.0>]
+    dictionary: [{{lists,reverse,[[1,2,3]]},{waiting,5000,1514470236308}}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 310
+  neighbours:
+    neighbour: [{pid,<0.69.0>},{registered_name,[]},{initial_call,{erlang,apply,2}},{current_function,{gen,do_call,4}},{ancestors,[]},{message_queue_len,0},{links,[<0.60.0>,<0.101.0>]},{trap_exit,false},{status,waiting},{heap_size,376},{stack_size,35},{reductions,3137},{current_stacktrace,[{gen,do_call,4,[{file,"gen.erl"},{line,169}]},{gen_server,call,2,[{file,"gen_server.erl"},{line,202}]},{erl_eval,do_apply,6,[{file,"erl_eval.erl"},{line,674}]},{shell,exprs,7,[{file,"shell.erl"},{line,687}]},{shell,eval_exprs,7,[{file,"shell.erl"},{line,642}]},{shell,eval_loop,3,[{file,"shell.erl"},{line,627}]}]}]
+2017-12-28 12:14:46 =CRASH REPORT====
+  crasher:
+    initial call: naive_cache_app:init/1
+    pid: <0.101.0>
+    registered_name: naive_cache_app
+    exception exit: {{bad_return_value,undefined},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,730}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.69.0>]
+    message_queue_len: 1
+    messages: [{'$gen_cast',{execute,{lists,reverse,[[1,2,3]]},5000}}]
+    links: [<0.69.0>]
+    dictionary: [{{lists,reverse,[[1,2,3]]},{waiting,5000,1514470486572}}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 310
+  neighbours:
+    neighbour: [{pid,<0.69.0>},{registered_name,[]},{initial_call,{erlang,apply,2}},{current_function,{gen,do_call,4}},{ancestors,[]},{message_queue_len,0},{links,[<0.60.0>,<0.101.0>]},{trap_exit,false},{status,waiting},{heap_size,376},{stack_size,35},{reductions,3137},{current_stacktrace,[{gen,do_call,4,[{file,"gen.erl"},{line,169}]},{gen_server,call,2,[{file,"gen_server.erl"},{line,202}]},{erl_eval,do_apply,6,[{file,"erl_eval.erl"},{line,674}]},{shell,exprs,7,[{file,"shell.erl"},{line,687}]},{shell,eval_exprs,7,[{file,"shell.erl"},{line,642}]},{shell,eval_loop,3,[{file,"shell.erl"},{line,627}]}]}]
+2017-12-28 12:19:53 =CRASH REPORT====
+  crasher:
+    initial call: naive_cache_app:init/1
+    pid: <0.101.0>
+    registered_name: naive_cache_app
+    exception exit: {{bad_return_value,ok},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,357}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.69.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.69.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 166
+  neighbours:
+    neighbour: [{pid,<0.69.0>},{registered_name,[]},{initial_call,{erlang,apply,2}},{current_function,{proc_lib,sync_wait,2}},{ancestors,[]},{message_queue_len,1},{links,[<0.60.0>,<0.101.0>]},{trap_exit,false},{status,runnable},{heap_size,233},{stack_size,27},{reductions,830},{current_stacktrace,[{proc_lib,sync_wait,2,[{file,"proc_lib.erl"},{line,348}]},{erl_eval,do_apply,6,[{file,"erl_eval.erl"},{line,674}]},{shell,exprs,7,[{file,"shell.erl"},{line,687}]},{shell,eval_exprs,7,[{file,"shell.erl"},{line,642}]},{shell,eval_loop,3,[{file,"shell.erl"},{line,627}]}]}]
+2017-12-28 12:20:35 =CRASH REPORT====
+  crasher:
+    initial call: naive_cache_app:init/1
+    pid: <0.101.0>
+    registered_name: naive_cache_app
+    exception exit: {{bad_return_value,ok},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,357}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.69.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.69.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 166
+  neighbours:
+    neighbour: [{pid,<0.69.0>},{registered_name,[]},{initial_call,{erlang,apply,2}},{current_function,{proc_lib,sync_wait,2}},{ancestors,[]},{message_queue_len,1},{links,[<0.60.0>,<0.101.0>]},{trap_exit,false},{status,runnable},{heap_size,233},{stack_size,27},{reductions,830},{current_stacktrace,[{proc_lib,sync_wait,2,[{file,"proc_lib.erl"},{line,348}]},{erl_eval,do_apply,6,[{file,"erl_eval.erl"},{line,674}]},{shell,exprs,7,[{file,"shell.erl"},{line,687}]},{shell,eval_exprs,7,[{file,"shell.erl"},{line,642}]},{shell,eval_loop,3,[{file,"shell.erl"},{line,627}]}]}]
+2017-12-28 12:21:35 =CRASH REPORT====
+  crasher:
+    initial call: naive_cache_app:init/1
+    pid: <0.101.0>
+    registered_name: naive_cache_app
+    exception exit: {{bad_return_value,ok},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,357}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.69.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.69.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 166
+  neighbours:
+    neighbour: [{pid,<0.69.0>},{registered_name,[]},{initial_call,{erlang,apply,2}},{current_function,{proc_lib,sync_wait,2}},{ancestors,[]},{message_queue_len,1},{links,[<0.60.0>,<0.101.0>]},{trap_exit,false},{status,runnable},{heap_size,233},{stack_size,27},{reductions,830},{current_stacktrace,[{proc_lib,sync_wait,2,[{file,"proc_lib.erl"},{line,348}]},{erl_eval,do_apply,6,[{file,"erl_eval.erl"},{line,674}]},{shell,exprs,7,[{file,"shell.erl"},{line,687}]},{shell,eval_exprs,7,[{file,"shell.erl"},{line,642}]},{shell,eval_loop,3,[{file,"shell.erl"},{line,627}]}]}]
+2017-12-28 12:22:36 =CRASH REPORT====
+  crasher:
+    initial call: naive_cache_app:init/1
+    pid: <0.101.0>
+    registered_name: naive_cache_app
+    exception exit: {{bad_return_value,ok},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,357}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.69.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.69.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 166
+  neighbours:
+    neighbour: [{pid,<0.69.0>},{registered_name,[]},{initial_call,{erlang,apply,2}},{current_function,{proc_lib,sync_wait,2}},{ancestors,[]},{message_queue_len,1},{links,[<0.60.0>,<0.101.0>]},{trap_exit,false},{status,runnable},{heap_size,233},{stack_size,27},{reductions,922},{current_stacktrace,[{proc_lib,sync_wait,2,[{file,"proc_lib.erl"},{line,348}]},{erl_eval,do_apply,6,[{file,"erl_eval.erl"},{line,674}]},{shell,exprs,7,[{file,"shell.erl"},{line,687}]},{shell,eval_exprs,7,[{file,"shell.erl"},{line,642}]},{shell,eval_loop,3,[{file,"shell.erl"},{line,627}]}]}]
+2017-12-28 12:26:11 =CRASH REPORT====
+  crasher:
+    initial call: naive_cache_app:init/1
+    pid: <0.101.0>
+    registered_name: naive_cache_app
+    exception exit: {{bad_return_value,undefined},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,730}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.69.0>]
+    message_queue_len: 1
+    messages: [{'$gen_cast',{execute,{lists,reverse,[[1,2,3,4]]},5000}}]
+    links: [<0.69.0>]
+    dictionary: [{{lists,reverse,[[1,2,3,4]]},{waiting,5000,1514471171931}}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 312
+  neighbours:
+    neighbour: [{pid,<0.69.0>},{registered_name,[]},{initial_call,{erlang,apply,2}},{current_function,{gen,do_call,4}},{ancestors,[]},{message_queue_len,0},{links,[<0.60.0>,<0.101.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,35},{reductions,3255},{current_stacktrace,[{gen,do_call,4,[{file,"gen.erl"},{line,169}]},{gen_server,call,2,[{file,"gen_server.erl"},{line,202}]},{erl_eval,do_apply,6,[{file,"erl_eval.erl"},{line,674}]},{shell,exprs,7,[{file,"shell.erl"},{line,687}]},{shell,eval_exprs,7,[{file,"shell.erl"},{line,642}]},{shell,eval_loop,3,[{file,"shell.erl"},{line,627}]}]}]
+2017-12-28 12:28:00 =CRASH REPORT====
+  crasher:
+    initial call: naive_cache_app:init/1
+    pid: <0.101.0>
+    registered_name: naive_cache_app
+    exception exit: {{bad_return_value,undefined},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,730}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.69.0>]
+    message_queue_len: 1
+    messages: [{'$gen_cast',{execute,{lists,reverse,[[1,2,3,4]]},5000}}]
+    links: [<0.69.0>]
+    dictionary: [{{lists,reverse,[[1,2,3,4]]},{waiting,5000,1514471280538}}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 312
+  neighbours:
+    neighbour: [{pid,<0.69.0>},{registered_name,[]},{initial_call,{erlang,apply,2}},{current_function,{gen,do_call,4}},{ancestors,[]},{message_queue_len,0},{links,[<0.60.0>,<0.101.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,35},{reductions,3255},{current_stacktrace,[{gen,do_call,4,[{file,"gen.erl"},{line,169}]},{gen_server,call,2,[{file,"gen_server.erl"},{line,202}]},{erl_eval,do_apply,6,[{file,"erl_eval.erl"},{line,674}]},{shell,exprs,7,[{file,"shell.erl"},{line,687}]},{shell,eval_exprs,7,[{file,"shell.erl"},{line,642}]},{shell,eval_loop,3,[{file,"shell.erl"},{line,627}]}]}]
+2017-12-28 12:48:27 =CRASH REPORT====
+  crasher:
+    initial call: naive_cache_app:init/1
+    pid: <0.109.0>
+    registered_name: a
+    exception exit: {{bad_return_value,{ok,waiting}},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,730}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.107.0>]
+    message_queue_len: 1
+    messages: [{'$gen_cast',{execute,{lists,reverse,[[1,2,3,4,5]]},5000}}]
+    links: [<0.107.0>]
+    dictionary: [{{lists,reverse,[[1,2,3,4,5]]},waiting}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 310
+  neighbours:
+    neighbour: [{pid,<0.107.0>},{registered_name,[]},{initial_call,{erlang,apply,2}},{current_function,{gen,do_call,4}},{ancestors,[]},{message_queue_len,0},{links,[<0.60.0>,<0.109.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,35},{reductions,3436},{current_stacktrace,[{gen,do_call,4,[{file,"gen.erl"},{line,169}]},{gen_server,call,2,[{file,"gen_server.erl"},{line,202}]},{erl_eval,do_apply,6,[{file,"erl_eval.erl"},{line,674}]},{shell,exprs,7,[{file,"shell.erl"},{line,687}]},{shell,eval_exprs,7,[{file,"shell.erl"},{line,642}]},{shell,eval_loop,3,[{file,"shell.erl"},{line,627}]}]}]
